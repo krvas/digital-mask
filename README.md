@@ -25,4 +25,5 @@ Options:
 * The `-s` flag allows you to use the seamless cloning algorithm. This changes the way in which the face mask is pasted onto the frame. It can make pasting a face look more realistic.
 * The `-m` flag will cut a hole in the face mask so that the user's mouth is displayed. It makes the movements of the mouth more realistic. 
 * The `-f` flag can be run if there are multiple faces in the image and the user wants to know which face was identified by the program. Before running the video, it will display two images. The first is a black and white mask of the region of the identified face, and the second is the image of the face. You can continue the program by pressing any key.
+<br/>
 Warning: The `-m` and `-s` flags do not pair well together, and running them at the same time may yeild undesirable results.
